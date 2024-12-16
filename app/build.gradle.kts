@@ -37,6 +37,9 @@ android {
     buildFeatures {
         compose = true
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.4"
+    }
 }
 
 dependencies {
@@ -56,4 +59,14 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.coil.compose)
+    implementation(libs.accompanist.pager.indicators)
+    implementation(libs.accompanist.pager)
+    implementation(libs.runtime.livedata)
+    implementation(libs.glide)
+    implementation(libs.gson)
+    implementation(libs.constraintlayout.compose)
+    implementation(libs.foundation)
+
 }
