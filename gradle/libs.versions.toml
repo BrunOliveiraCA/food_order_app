@@ -17,6 +17,8 @@ glide = "4.16.0"
 gson = "2.10.1"
 constraintlayoutCompose = "1.1.0"
 foundation = "1.7.6"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,9 +44,11 @@ glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "gl
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
 foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
